@@ -1,9 +1,6 @@
-//dependencia a XMLHttpRequest
-const http = require('xmlhttprequest').XMLHttpRequest
-
 const axios = require('axios')
 
-const url = "https://rickandmortyapi.com/api/character"
+const url = "https://pokeapi.co/api/v2/type"
 
 let config= {
     url : url,
